@@ -1,3 +1,40 @@
 VIM roadmap
 
-1.
+start vim
+load file
+
+1.1.  h <left> j <down> k <left> l <right>
+1.3  delete <x>
+
+---> The ccow jumpedd ovverr thhe mooon.
+
+1.4  insert <i>
+
+---> There is text misng this .
+There is some text missing from this line.
+
+1.5  append <a>
+
+---> There is some text missing from th
+     There is some text missing from this line.
+---> There is also some text miss
+     There is also some text missing here.
+
+2.1 dw <delete all until next word,  w = word>
+---> There are a some words fun that don't belong paper in this sentence.
+
+2.2 d$ <delete to end of line, $ = end of line>
+---> Somebody typed the end of this line twice. end of this line twice.
+
+2.4 <number><motion>:  2w, 3e, 0 (moves to start of line)
+
+2.5 <operator><number><motion> : d2w
+--->  this ABC DE line FGHI JK LMN OP of words is Q RS TUV cleaned up.
+
+2.6 delete the whole line: <dd> , <2dd>
+
+2.7 undo last <u>, undo last to fix a whole line <U>
+
+---> Fiix the errors oon thhis line and reeplace them witth undo.
+
+
