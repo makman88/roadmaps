@@ -1,6 +1,7 @@
 VIM roadmap
 
 1.1.  h <left> j <down> k <left> l <right>
+
 1.3  delete <x>
 
 ---> The ccow jumpedd ovverr thhe mooon.
@@ -14,9 +15,6 @@ VIM roadmap
 
 ---> There is some text missing from th
 ==== There is some text missing from this line.
-
----> There is also some text miss
-==== There is also some text missing here.
 
 2.1 dw <delete all until next word,  w = word>
 ---> There are a some words DELETE that don't belong ME in this sentence.
