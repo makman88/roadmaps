@@ -148,3 +148,10 @@ delete "1" using dw, then repeat with "." for the subsequent lines
 ---> 1 2 3 4 5 6 7
 ---> 1 2 3 4 5 6 7
 
+
+
+To join two lines, use <J>
+
+This is line 1.
+Make this sentence part of line 1.
+
