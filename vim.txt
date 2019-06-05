@@ -38,3 +38,100 @@ There is some text missing from this line.
 ---> Fiix the errors oon thhis line and reeplace them witth undo.
 
 
+3.1  Use cut line <dd> and paste <p> to reorder:
+
+---> d) Can you learn too?
+---> b) Violets are blue,
+---> c) Intelligence is learned,
+---> a) Roses are red,
+
+3.2  Use <r> to replace a character 
+
+--->  Whan this lime was tuoed in, someone presswd some wrojg keys!
+      When this line was typed in, someone pressed some wrong keys!
+
+3.3  User <ce> to change until end of word 
+
+---> This lubw has a few wptfd that mrrf changing usf the change operator.
+     This line has a few words that need changing using the change operator.
+
+3.4  Use <c$> to change to end of line.  <cw> to change a word.  <c2w> to change 3 words. 
+
+---> This lubw has a few wptfd that mrrf changing usf the change operator.
+     This line has a few words that need changing using the change operator.
+
+
+4.1  <CTRL-G> to show location and name of file. Note the line number.
+	Type G to go to bottom of file. Then type gg to go to start of file.
+        Then type <##G> to jump back to line number ##.
+  
+4.2a Use </> to search for text. Search for "errroor" (3 r's an 2 o's)
+	Then use <n> to search again. Fix.
+	Then use <N> to search backwards. Fix.
+
+--->  "errroor" is not the way to spell error;  errroor is an error.
+
+4.2b Use <?> to search for text backwards. Search for "4.2a"
+	<ctrl-o> to return to where you were.
+
+
+4.3 Use % to find matching parentheses / bracket.  Good for coding.  
+
+---> This ( is a test line with ('s, ['s ] and {'s } in it. ))
+
+
+4.4  Colon-enter lets you execute sub-commands.  Substitute with :s <enter>
+	Current line only:  :s/thee/the 
+	---> thee best time to see thee flowers is in thee spring.
+	
+	Current line only, all occurences:  :s/thee/the/g
+	---> thee best time to see thee flowers is in thee spring.
+
+	Whole file, add the g      
+	:%s/thee/the/g
+
+        ---> thee best time to see thee flowers is in thee spring.
+        ---> thee best time to see thee flowers is in thee spring.
+        ---> thee best time to see thee flowers is in thee spring.
+        ---> thee best time to see thee flowers is in thee spring.
+
+        Whole file, with prompt, add c 
+	:%s/springgg/spring/gc
+
+        ---> thee best time to see thee flowers is in thee springgg. 
+        ---> thee best time to see thee flowers is in thee springgg. 
+        ---> thee best time to see thee flowers is in thee springgg. 
+        ---> thee best time to see thee flowers is in thee springgg. 
+
+6.1  <o> to open new line for writing
+
+6.2a  <a> to append after cursor
+
+---> This li will allow you to pract appendi text to a line.
+---> This line will allow you to practice appending text to a line.
+
+6.2b <A> to append to current line
+
+---> Add to this
+
+6.3  <R> goes to replace mode, to replace more than one character
+
+---> Adding 123 to xxx gives you xxx.
+---> Adding 123 to 456 gives you 579.
+
+6.4a  <yy> to copy a line, <p> to paste it
+
+---> Copy and paste me below : yy p
+
+6.4b  <v> into visual mode, select section to paste (hint use $)
+	<y> to copy , move to second line, <p> to paste it
+
+--->  a) this is sentence to paste 
+--->  b)
+
+6.4c  <yw> copies just the current word
+
+---> copy_me
+---> paste here:
+
+
