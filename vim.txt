@@ -36,7 +36,8 @@ VIM roadmap
 ---> delete me too
 ---> delete me too too
 
-2.7 undo last <u>, undo last to fix a whole line <U>
+2.7 <u> : undo last 
+    <U> : undo last to fix a whole line 
 
 ---> Fiix the errors oon thhis line and reeplace them witth undo.
 
@@ -64,9 +65,9 @@ VIM roadmap
      This line has a few words that need changing using the change operator.
 
 
-4.1  <CTRL-G> to show location and name of file. Note the line number.
+4.1  <ctrl-g> to show location and name of file. Note the line number.
 	Type G to go to bottom of file. Then type gg to go to start of file.
-        Then type <##G> to jump back to line number ##.
+        Then command :## to jump back to line number ##.
   
 4.2a Use </> to search for text. Search for "errroor" (3 r's an 2 o's)
 	Then use <n> to search again. Fix.
@@ -84,27 +85,28 @@ VIM roadmap
 
 
 4.4  Colon-enter lets you execute sub-commands.  Substitute with :s <enter>
-	Current line only:  :s/thee/the 
-	---> thee best time to see thee flowers is in thee spring.
+Current line only:  :s/thee/the 
+
+---> thee best time to see thee flowers is in thee spring.
 	
-	Current line only, all occurences:  :s/thee/the/g
-	---> thee best time to see thee flowers is in thee spring.
+Current line only, all occurences:  :s/thee/the/g
+---> thee best time to see thee flowers is in thee spring.
 
-	Whole file, add the g      
-	:%s/thee/the/g
+Whole file, add the g      
+:%s/thee/the/g
 
-        ---> thee best time to see thee flowers is in thee spring.
-        ---> thee best time to see thee flowers is in thee spring.
-        ---> thee best time to see thee flowers is in thee spring.
-        ---> thee best time to see thee flowers is in thee spring.
+---> thee best time to see thee flowers is in thee spring.
+---> thee best time to see thee flowers is in thee spring.
+---> thee best time to see thee flowers is in thee spring.
+---> thee best time to see thee flowers is in thee spring.
 
-        Whole file, with prompt, add c 
-	:%s/springgg/spring/gc
+Whole file, with prompt, add c 
+:%s/springgg/spring/gc
 
-        ---> thee best time to see thee flowers is in thee springgg. 
-        ---> thee best time to see thee flowers is in thee springgg. 
-        ---> thee best time to see thee flowers is in thee springgg. 
-        ---> thee best time to see thee flowers is in thee springgg. 
+---> thee best time to see thee flowers is in thee springgg. 
+---> thee best time to see thee flowers is in thee springgg. 
+---> thee best time to see thee flowers is in thee springgg. 
+---> thee best time to see thee flowers is in thee springgg. 
 
 6.1  <o> to open new line for writing
 
