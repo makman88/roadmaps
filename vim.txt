@@ -19,7 +19,7 @@ VIM roadmap
 ==== There is also some text missing here.
 
 2.1 dw <delete all until next word,  w = word>
----> There are a some words fun that don't belong paper in this sentence.
+---> There are a some words DELETE that don't belong ME in this sentence.
 
 2.2 d$ <delete to end of line, $ = end of line>
 ---> Somebody typed the end of this line twice. end of this line twice.
