@@ -1,0 +1,118 @@
+After each step, look at the short status
+
+0. 	Create structure
+1.	Initialize new repository
+
+Stage and Unstage
+2. 	Create a new file with a line.  Confirm: File is untracked.
+3. 	Add it - should be tracked now
+4.  	Modify the file : Confirm: Shold be both tracked and untracked
+5.  	Diff: between Modified and stage
+6.	Diff: between Stage and HEAD
+7. 	Discard the modification with checkout
+7.	Commit with a -m comment
+8.  	Create a new file with a line. Auto-commit with -a
+
+Modify and rollback
+9. Modify
+10. Rollback 
+
+Modify stage and rollback
+11. Modify
+12. Add
+13. Rollback
+
+Modify Commit and Rollback
+
+
+Delete a commited file:
+9.  Delete committed file
+10. Git remove file
+11. Rollback remove with chekcout
+
+Rollback Modified
+4.  	Modify a file.  Roll it back from last checked in
+
+
+Rollback Staged
+
+
+Untrack a file but leave it
+git rm --cached <file>
+
+* git mv <from> <to>
+* Rollback the move
+* Do it again and commit
+
+Git Log
+git log
+git log -p -2
+git log --stat
+git log --pretty=oneline
+git log --pretty=format:"h - %an, %ar : %s"
+git log --pretty-format:"%h %s" --graph
+git log --since=2.weeks
+git log -S foo
+
+
+--------------
+git commit --amend
+
+git commit -m 'initial commit'
+git add forgotten_file
+git commit --amend
+(first commit gets replacd by second)
+
+----------
+
+UNSTAGING a STAGED FILE
+
+git reset HEAD <file>
+
+UNMODIFYING a MODIFIED FILE 
+
+git checkout <file> copies it from stage
+git checkout HEAD <file> copies it from HEAD and unstages it
+
+REMOTES
+git remote
+git remote -v
+git remote add <shortname> <url>
+git fetch <remotet>
+get push <remote> <branch> 
+	git push origin master
+git remote show origin
+git pull
+git remote rename <shortname> <shortname>
+git remote remove / git remote rm
+
+---------------------
+
+TAGGING
+
+git tag
+git tag -l
+git tag -l "v1.8.5*"
+
+git tag -a v1.4 -m "My version 1.4"
+git show v1.4
+
+git tag v1.4-lw : lightweight tag just aliases commit checksum
+git tag -a v1.2 9fceb02 : tags a specific commit
+
+
+git push origin <tagname>
+git push origin --tags
+
+--- Checking out tags <????>
+
+git checkout 2.0.0
+git checkout -b <new branch>
+
+
+GIT ALIASES
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.unstage 'reset HEAD --'
+git config --global alias.visual '!gitk'
+
