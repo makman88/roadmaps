@@ -1,0 +1,11 @@
+Challenge 1
+
+1.  Write a c++ program called 'hello.cpp' to print "Hello World" completely from memory, using Vim. Compile it and run it.
+
+2.  do a "git status" to see the state of your repository. you should see the file as untracked because git hasn't seen this file before.
+
+2.  in git, "add" the program file as a tracked file. Check the git status to see the new state of the file.
+
+3.  in git, "commit" the program file so that it is officially saved
+
+4.  in git, "push" your workspace so that the master repositry gets your file.
