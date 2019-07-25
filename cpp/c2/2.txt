@@ -2,3 +2,6 @@ Challenge 2
 
 Write a program called c2.cpp with a main() that calls the function
 add() defined in c2func.cpp to add the numbers 5 and 6 and print the result
+
+Use this tutorial to help:
+https://www.programiz.com/cpp-programming/function
