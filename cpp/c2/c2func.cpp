@@ -1,5 +1,3 @@
-#include <iostream>
-
-void printString(std::string input) {
-	std::cout << input << "\n";
+int add(int a, int b) {
+	return a+b;
 }
