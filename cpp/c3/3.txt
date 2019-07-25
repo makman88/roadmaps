@@ -1,5 +1,8 @@
 Challenge 3
 
+Now we separate the function into its own source and header file 
+c3func.cpp and c3func.h:
+
 Write a program called c3.cpp with a main() that calls the function
 multiply() defined in c3func.cpp to multiple the numbers 5 and 6 and print the result
 
