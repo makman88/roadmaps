@@ -1,4 +1,5 @@
 Read this tutorial to see how function calls are done in C++
 https://www.programiz.com/cpp-programming/function
 
-now fix c2.cpp to make it work
+now fix c2.cpp to make it work; you need to add the new function add() and
+its declaration to the file
