@@ -1,0 +1,4 @@
+Challenge 2
+
+Write a program called c2.cpp with a main() that calls the function
+printString() defined in c2_functions.cpp
